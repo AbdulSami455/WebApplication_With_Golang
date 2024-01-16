@@ -1,11 +1,18 @@
-package main 
+package main
 
 import (
- "fmt"
- "net/http"
+	"fmt"
+	"net/http"
+	"html/template"
 )
 
 func login(w http.ResponseWriter, r *http.Request) {
+  var filename ="login1.html"
+  t, err :=template.ParseFiles(filename)
+  if err != nil {
+    fmt.Println("Error in parsing the template")
+    }
+  t.Execute(w,filename)
   
 }
 
@@ -26,7 +33,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 func main(){
 
-  
+  http.HandleFunc("/", handler)
+  http.ListenAndServe("",nil)
 
   
 }
