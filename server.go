@@ -16,10 +16,10 @@ func login(w http.ResponseWriter, r *http.Request) {
   
 }
 
-func loginsubmit(w http.ResponseWriter, r *http.Request) {
+//func loginsubmit(w http.ResponseWriter, r *http.Request) {
 
   
-}
+//}
 func handler(w http.ResponseWriter, r *http.Request) {
   switch r.URL.Path {
   case "/login":
