@@ -1,12 +1,13 @@
 package main
 
-// Import Packages and Libraries 
+// Import Packages and Libraries
 import (
 	"fmt"
-	"net/http"
-	"html/template"
+	//"net/http"
+	//"html/template"
 )
 
+/*
 //Func for HTML template Rendering
 func login(w http.ResponseWriter, r *http.Request) {
   var filename ="login1.html"
@@ -15,28 +16,39 @@ func login(w http.ResponseWriter, r *http.Request) {
     fmt.Println("Error in parsing the template")
     }
   t.Execute(w,filename)
-  
+
 }
 
 //func loginsubmit(w http.ResponseWriter, r *http.Request) {
 
-  
+
 //}
 func handler(w http.ResponseWriter, r *http.Request) {
   switch r.URL.Path {
   case "/login":
     login(w,r)
-   case "/loginsubmit":
+   //case "/loginsubmit":
     loginsubmit(w,r)
   default:
     fmt.Fprintf(w, "Hello You are Doing Wrong ")
     }
 
 }
-func main(){
 
-  http.HandleFunc("/", handler)
-  http.ListenAndServe("",nil)
+*/
 
-  
+type person struct {
+	name string
+	age  int
+}
+
+func main() {
+
+	//http.HandleFunc("/", handler)
+	//  http.ListenAndServe("",nil)
+	fmt.Println("Hello")
+
+	var q person = person{"Abdul Sami", 20}
+	fmt.Print(q.name)
+
 }
