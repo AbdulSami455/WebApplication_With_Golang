@@ -46,9 +46,6 @@ func main() {
 
 	//http.HandleFunc("/", handler)
 	//  http.ListenAndServe("",nil)
-	fmt.Println("Hello")
 
-	var q person = person{"Abdul Sami", 20}
-	fmt.Print(q.name)
-
+	fmt.Printf("Hello Wveryone ")
 }
