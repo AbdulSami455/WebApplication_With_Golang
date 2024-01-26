@@ -1,11 +1,12 @@
 package main
 
+/*
 // Import Packages and Libraries
-import (
-	"fmt"
-	//"net/http"
-	//"html/template"
-)
+
+//	"fmt"
+//"strings"
+//"net/http"
+//"html/template"
 
 /*
 //Func for HTML template Rendering
@@ -36,16 +37,25 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 */
-
+/*
 type person struct {
 	name string
 	age  int
 }
-
+*/
+/*
 func main() {
 
 	//http.HandleFunc("/", handler)
 	//  http.ListenAndServe("",nil)
-  
-	fmt.Printf("Hello Everyone ")
+
+	s := "Hello"
+	ans := strings.Count(s, "l")
+	fmt.Print(ans)
+
+	ans2 := strings.HasPrefix(s, "He")
+	fmt.Print("\n")
+	fmt.Print(ans2)
+	fmt.Printf("Hello Everyone \n")
 }
+*/
