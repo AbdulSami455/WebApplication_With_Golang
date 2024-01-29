@@ -14,7 +14,7 @@ func main() {
 
 	//fmt.Print("hello")
 	baseURL := "https://httpbin.org"
-	// basic get Request
+	// basic get Request to handle
 
 	resp, err := client.Get(baseURL + "/get")
 	if err != nil {
