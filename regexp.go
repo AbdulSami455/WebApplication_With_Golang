@@ -1,5 +1,6 @@
 package main
 
+/*
 import (
 	"fmt"
 	"regexp"
@@ -12,3 +13,4 @@ func regeexpatterns() {
 	fmt.Println(matched, err)
 
 }
+*/

@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"strings"
+	"time"
 )
 
 func main() {
@@ -16,6 +17,7 @@ func main() {
 
 	n := flag.Int("i", 1, "Number of times")
 
+	duration := flag.Duration("t", 5*time.Second, "duration....")
 	flag.Parse()
 
 	if *verbose {
@@ -26,4 +28,5 @@ func main() {
 	for i := 0; i < *n; i++ {
 		fmt.Print(*name)
 	}
+
 }
