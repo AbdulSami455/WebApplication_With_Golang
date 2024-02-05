@@ -1,5 +1,6 @@
 package main
 
+/*
 import (
 	"bytes"
 	"fmt"
@@ -14,7 +15,7 @@ func main() {
 
 	//fmt.Print("hello")
 	baseURL := "https://httpbin.org"
-	// basic get Request to handle
+	// basic get Request to handle Request
 
 	resp, err := client.Get(baseURL + "/get")
 	if err != nil {
@@ -38,3 +39,4 @@ func main() {
 	//There are other http Requests like POST,PUT and PATCH
 
 }
+*/
