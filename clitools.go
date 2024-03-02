@@ -1,5 +1,6 @@
-package main
 
+package main
+/*
 import (
 	"flag"
 	"fmt"
@@ -26,5 +27,4 @@ func main() {
 	for i := 0; i < *n; i++ {
 		fmt.Print(*name)
 	}
-
-}
+}*/
